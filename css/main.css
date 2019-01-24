@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mdl-layout__header-row {
+padding: 0;
+justify-content: center;
+}
+.portfolio-max-width {
+max-width: 900px;
+margin: auto;
+}
+.mdl-card__media {
+	height: auto;
+	width: 100%;	
+	
+}
+.mdl-cell.mdl-card.mdl-shadow--4dp .mdl-card__media img {
+	width: 100%;
+	height: auto;
+}
+
+.mdl-cell.mdl-card.mdl-shadow--4dp .mdl-card__actions.mdl-card--border .mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect {
+	color: #E90C10;
+}
+.mdl-grid.portfolio-max-width .mdl-grid img {
+	width: 100%;
+	height: auto;
+}
+.mdl-grid.portfolio-max-width .mdl-grid h1 {
+	font-family: 'Fredericka the Great', cursive;
+	color: #E11014;
+}
+.mdl-grid .mdl-cell.mdl-cell--6-col h2 {
+	font-family: 'Fredericka the Great', cursive;
+	color: #E31F23;
+}
+.mdl-cell.mdl-cell--6-col p a {
+	color: #EF0A0E;
+}
+
+
+
+ul li a {
+	color: #FF0004;
+}
+.mdl-layout__content .mdl-grid.portfolio-max-width #location {
+	width: 100%;
+	margin: auto;
+	height: auto;
+}
